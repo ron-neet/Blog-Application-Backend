@@ -1,7 +1,7 @@
 package com.RonitCodes.Blog.Application.Service;
 
-import com.RonitCodes.Blog.Application.Dto.PostDto;
-import com.RonitCodes.Blog.Application.Dto.PostResponseDto;
+import com.RonitCodes.Blog.Application.Dto.Post.PostDto;
+import com.RonitCodes.Blog.Application.Dto.Post.PostResponseDto;
 import com.RonitCodes.Blog.Application.Model.Category;
 import com.RonitCodes.Blog.Application.Model.Post;
 import com.RonitCodes.Blog.Application.Model.User;
@@ -15,10 +15,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;

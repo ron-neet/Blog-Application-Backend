@@ -1,7 +1,7 @@
 package com.RonitCodes.Blog.Application.Controller;
 
-import com.RonitCodes.Blog.Application.Dto.CommentDto;
-import com.RonitCodes.Blog.Application.Dto.CommentDtoResponse;
+import com.RonitCodes.Blog.Application.Dto.Comment.CommentDto;
+import com.RonitCodes.Blog.Application.Dto.Comment.CommentDtoResponse;
 import com.RonitCodes.Blog.Application.Service.CommentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

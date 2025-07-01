@@ -1,15 +1,15 @@
-package com.RonitCodes.Blog.Application.Dto;
+package com.RonitCodes.Blog.Application.Dto.Post;
 
-import com.RonitCodes.Blog.Application.Model.Comment;
+import com.RonitCodes.Blog.Application.Dto.Category.CategoryDto;
+import com.RonitCodes.Blog.Application.Dto.Comment.CommentDtoResponse;
+import com.RonitCodes.Blog.Application.Dto.User.UserDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 @Data
 @AllArgsConstructor

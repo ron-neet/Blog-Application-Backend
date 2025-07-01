@@ -1,6 +1,6 @@
 package com.RonitCodes.Blog.Application.Service;
 
-import com.RonitCodes.Blog.Application.Dto.CategoryDto;
+import com.RonitCodes.Blog.Application.Dto.Category.CategoryDto;
 import com.RonitCodes.Blog.Application.Model.Category;
 import com.RonitCodes.Blog.Application.Repository.CategoryRepository;
 import org.modelmapper.ModelMapper;

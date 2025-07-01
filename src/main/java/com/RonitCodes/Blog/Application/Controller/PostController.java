@@ -1,7 +1,7 @@
 package com.RonitCodes.Blog.Application.Controller;
 
-import com.RonitCodes.Blog.Application.Dto.PostDto;
-import com.RonitCodes.Blog.Application.Dto.PostResponseDto;
+import com.RonitCodes.Blog.Application.Dto.Post.PostDto;
+import com.RonitCodes.Blog.Application.Dto.Post.PostResponseDto;
 import com.RonitCodes.Blog.Application.Service.FileService;
 import com.RonitCodes.Blog.Application.Service.PostService;
 import jakarta.servlet.http.HttpServletResponse;
@@ -19,7 +19,7 @@ import java.io.InputStream;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api/auth/login")
 public class PostController {
 
     private final PostService postService;
@@ -32,7 +32,6 @@ public class PostController {
 
     @Value("${project.image}")
     private String path;
-
 
     @PostMapping("/user/{userId}/category/{categoryId}/post")
     public ResponseEntity<PostResponseDto> addPost(

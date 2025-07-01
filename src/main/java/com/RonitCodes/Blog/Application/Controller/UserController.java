@@ -1,6 +1,6 @@
 package com.RonitCodes.Blog.Application.Controller;
 
-import com.RonitCodes.Blog.Application.Dto.UserDto;
+import com.RonitCodes.Blog.Application.Dto.User.UserDto;
 import com.RonitCodes.Blog.Application.Service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;

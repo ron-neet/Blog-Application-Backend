@@ -1,4 +1,4 @@
-package com.RonitCodes.Blog.Application.Dto;
+package com.RonitCodes.Blog.Application.Dto.User;
 
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;

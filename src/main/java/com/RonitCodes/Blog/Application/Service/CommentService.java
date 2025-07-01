@@ -1,14 +1,13 @@
 package com.RonitCodes.Blog.Application.Service;
 
-import com.RonitCodes.Blog.Application.Dto.CommentDto;
-import com.RonitCodes.Blog.Application.Dto.CommentDtoResponse;
+import com.RonitCodes.Blog.Application.Dto.Comment.CommentDto;
+import com.RonitCodes.Blog.Application.Dto.Comment.CommentDtoResponse;
 import com.RonitCodes.Blog.Application.Model.Comment;
 import com.RonitCodes.Blog.Application.Model.Post;
 import com.RonitCodes.Blog.Application.Repository.CommentRepository;
 import com.RonitCodes.Blog.Application.Repository.PostRepository;
 import jakarta.persistence.EntityNotFoundException;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service

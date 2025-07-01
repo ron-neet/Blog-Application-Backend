@@ -1,4 +1,4 @@
-package com.RonitCodes.Blog.Application.Dto;
+package com.RonitCodes.Blog.Application.Dto.Category;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;

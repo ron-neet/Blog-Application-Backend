@@ -1,6 +1,6 @@
 package com.RonitCodes.Blog.Application.Controller;
 
-import com.RonitCodes.Blog.Application.Dto.CategoryDto;
+import com.RonitCodes.Blog.Application.Dto.Category.CategoryDto;
 import com.RonitCodes.Blog.Application.Service.CategoryService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
